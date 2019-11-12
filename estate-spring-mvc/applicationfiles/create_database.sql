@@ -1,0 +1,4 @@
+CREATE USER estate WITH PASSWORD '123456';
+CREATE DATABASE estatespring OWNER estate ENCODING = "UTF8";
+
+CREATE SCHEMA estatespring;
